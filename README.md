@@ -16,4 +16,4 @@
 
 - Clone the repository.
 - Run the command - `uvicorn main:app --host localhost --port 8000`
-- If the FastAPI server started succesfully , Run the command - `Streamlit run inference.py`
+- If the FastAPI server started succesfully , Run the command - `streamlit run inference.py`
