@@ -9,7 +9,7 @@
 
 - Performed hyper parameter tuning for improving the peft model.
 
-- Please have a look at training here : https://colab.research.google.com/drive/18ivkCHe_wdwRjSlFajYLXN4Vz0dmvr6_#
+- Please have a look at training notebok here : https://colab.research.google.com/drive/18ivkCHe_wdwRjSlFajYLXN4Vz0dmvr6_#
 
 
 ## To run the model locally
