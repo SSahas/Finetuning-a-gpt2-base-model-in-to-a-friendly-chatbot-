@@ -1,7 +1,7 @@
-# Improving-FLAN-t5-base-model-for-conversation
+# Finetuning a gpt2 base model in to a friendly chatbot.
 
 
-- Improving google/flan-t5-base model for conversation task.
+- Improving openai_community/gpt2_moed model for conversation task.
 
 - Used custom dataset for instruct fine tuning.Have a look at the datset : [daily_dialog](https://huggingface.co/datasets/daily_dialog)
 
@@ -9,8 +9,7 @@
 
 - Performed hyper parameter tuning for improving the peft model.
 
-- Please have a look at training notebok here : [https://colab.research.google.com/drive/18ivkCHe_wdwRjSlFajYLXN4Vz0dmvr6_#](https://colab.research.google.com/drive/18GXw1RaLXWeITGt9Yt0jepIIAZ9oe7Yi)
-
+- Please have a look at training notebok here : [[https://colab.research.google.com/drive/1LsGSPYI26tMu2hYBoFT0PaRdF5WZDzuo](https://colab.research.google.com/drive/1LsGSPYI26tMu2hYBoFT0PaRdF5WZDzuo)]
 
 ## To run the model locally
 - Deployed google/flan-t5-base model on FastAPI. Inference.py is used to call this fastapi server and get the response.The model is able to remeber past conversational context and able to respond accordingly. Also added chatgpt like ui using streamlit framework.
