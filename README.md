@@ -11,6 +11,7 @@
 
 - Please have a look at training notebok here : [[https://colab.research.google.com/drive/1LsGSPYI26tMu2hYBoFT0PaRdF5WZDzuo](https://colab.research.google.com/drive/1LsGSPYI26tMu2hYBoFT0PaRdF5WZDzuo)]
 
+- Try the app here : [[SSahas/friendly_chat_bot](SSahas/friendly_chat_bot)]
 ## To run the model locally
 - Deployed google/flan-t5-base model on FastAPI. Inference.py is used to call this fastapi server and get the response.The model is able to remeber past conversational context and able to respond accordingly. Also added chatgpt like ui using streamlit framework.
 - Clone the repository.
