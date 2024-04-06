@@ -1,7 +1,7 @@
 # Finetuning a gpt2 base model in to a friendly chatbot.
 
 
-- Improving openai_community/gpt2_moed model for conversation task.
+- Improving openai_community/gpt2_medium model for conversation task.
 
 - Used custom dataset for instruct fine tuning.Have a look at the datset : [daily_dialog](https://huggingface.co/datasets/daily_dialog)
 
@@ -13,7 +13,7 @@
 
 - Try the app here : [[SSahas/friendly_chat_bot](SSahas/friendly_chat_bot)]
 ## To run the model locally
-- Deployed google/flan-t5-base model on FastAPI. Inference.py is used to call this fastapi server and get the response.The model is able to remeber past conversational context and able to respond accordingly. Also added chatgpt like ui using streamlit framework.
+- Deployed openai_community/gpt2_medium model on FastAPI. Inference.py is used to call this fastapi server and get the response.
 - Clone the repository.
 - Run the command - `uvicorn main:app --host localhost --port 8000`
 - If the FastAPI server started succesfully , Run the command - `streamlit run inference.py`
