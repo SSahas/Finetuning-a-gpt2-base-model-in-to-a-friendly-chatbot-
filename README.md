@@ -11,7 +11,7 @@
 
 - Please have a look at training notebok here : [[https://colab.research.google.com/drive/1LsGSPYI26tMu2hYBoFT0PaRdF5WZDzuo](https://colab.research.google.com/drive/1LsGSPYI26tMu2hYBoFT0PaRdF5WZDzuo)]
 
-- Try the app here : [[SSahas/friendly_chat_bot](SSahas/friendly_chat_bot)]
+- Try the model yourself: [[SSahas/friendly_chat_bot](SSahas/friendly_chat_bot)]
 ## To run the model locally
 - Deployed openai_community/gpt2_medium model on FastAPI. Inference.py is used to call this fastapi server and get the response.
 - Clone the repository.
